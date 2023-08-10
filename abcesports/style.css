@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Gemunu Libre', sans-serif;
+    background-color: #010409;
+    color: white
+}
+
+
+
+main{
+    padding-top: 50px;
+    max-width: 1213.65px;
+    margin: auto;
+}
+
+header{
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+
+
+.escudo{
+    max-width: 96.53px;
+}
+
+.destaque{
+    color: #FFC90D;
+}
+
+.botaoheader{
+    background-color: #FFC90D;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    width: 150px;
+    height: 48.39px;
+    font-family: 'Gemunu Libre', sans-serif;
+    border-radius: 10px;
+}
+
+a{
+    height: 46px;
+    text-decoration: none;
+}
+
+.logojunto{
+    display: flex;
+    align-items: center;
+}
+
+.logojunto p{
+    margin: 0;
+    padding-left: 12px;
+    font-size: 31.35px;
+}
+
+.fototeclado{
+    max-width: 1213.65px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.botaoinscrever{
+    background-color: #FFC90D;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-family: 'Gemunu Libre', sans-serif;
+    border-radius: 10px;
+    width: 160px;
+    height: 58.39px;
+}
+
+.conteudoimg{
+    max-width: 550px;
+    background-color: black;
+}
+
+.conteudoimg h1{
+    font-weight: 400;
+    font-size: 64.55pt;
+}
+
+p{
+    font-size: 25.4pt;
+}
+
+.fortnite{
+    max-width: 352.2px;
+}
+
+.estrelas{
+    max-width: 141.25px;
+}
+
+.terceirasecao h1{
+    font-weight: 400;
+    font-size: 79.56pt;
+    padding-top: 31.5px;
+    margin: 0;
+
+}
+
+.segundasecao p{
+    max-width: 547.48px;
+    width: 100%;
+}
+
+.segundasecao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divdata{
+    text-align: center;
+    justify-content: center;
+}
+
+#data{
+    margin: 0;
+    padding-top: 13.23px;
+    padding-bottom: 31.5px;
+}
+
+.quartasecao h1{
+    font-weight: 400;
+    font-size: 66.88pt;
+}
+
+.tituloform{
+    display: flex;
+    align-items: center;
+}
+
+.tituloform img{
+    padding-left: 20px;
+}
+
+fieldset{
+    border: none;
+    margin: auto;
+    width: 100%;
+}
+
+input{
+    background-color: black;
+    
+}
+
+input::placeholder{
+    color: white;
+}
+
+
