@@ -159,6 +159,7 @@ fieldset{
     border: none;
     margin: auto;
     width: 100%;
+    padding: 0 0 0 0;
 }
 
 input{
@@ -168,8 +169,10 @@ input{
     border-color: white;
     border-style: solid;
     border-width: 2.5px;
-    border-radius: 6px;
-    max-width: 1213.65px;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    max-width: 1017px;
+    height: 75px;
     width: 100%
     
 }
@@ -199,20 +202,20 @@ select{
     border-style: solid;
     border-width: 2.5px;
     border-radius: 6px;
+    border-radius: 15px;
+    height: 75px;
 }
 
 .botaoform{
     background-color: #FFC90D;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 16pt;
     color: black;
     border: none;
-    width: 150px;
-    height: 48.39px;
+    width: 210px;
+    height: 75px;
     font-family: 'Gemunu Libre', sans-serif;
     border-radius: 10px;
 }
 
-fieldset{
-    padding: 0 0 0 0;
-}
+
