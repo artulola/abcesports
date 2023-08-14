@@ -180,7 +180,7 @@ input::placeholder{
 }
 
 .primeirasecao{
-    background-image: url(img/teclado.jpg);
+    background-image: url(assets/img/teclado.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
