@@ -98,9 +98,6 @@ p{
     font-size: 25.4pt;
 }
 
-.fortnite{
-    max-width: 350px;
-}
 
 .estrelas{
     max-width: 141.25px;
@@ -254,4 +251,126 @@ select{
 
 footer{
     height: 200px;
+}
+
+.slider{
+    margin: 0 auto;
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+.slides{
+    width: 600%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 1s;
+}
+
+.slide img{
+    width: 350px;
+}
+
+.navegacaomanual{
+    position: absolute;
+    width: 350px;
+    margin-top: 480px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+
+.manual-btn:hover{
+    background-color: #FFC90D;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -100%;
+}
+
+#radio6:checked ~ .first{
+    margin-left: -125%;
+}
+
+.autonavegacao div{
+    border: 2px solid #FFC90D;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.autonavegacao{
+    position: absolute;
+    width: 350px;
+    margin-top: 480px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.autonavegacao div:not(:last-child){
+    margin-right: 10px;
+}
+
+#radio1:checked ~ .autonavegacao .autobutton1{
+    background-color: #FFC90D;
+}
+
+#radio2:checked ~ .autonavegacao .autobutton2{
+    background-color: #FFC90D;
+}
+
+#radio3:checked ~ .autonavegacao .autobutton3{
+    background-color: #FFC90D;
+}
+
+#radio4:checked ~ .autonavegacao .autobutton4{
+    background-color: #FFC90D;
+}
+
+#radio5:checked ~ .autonavegacao .autobutton5{
+    background-color: #FFC90D;
+}
+
+#radio6:checked ~ .autonavegacao .autobutton6{
+    background-color: #FFC90D;
 }
