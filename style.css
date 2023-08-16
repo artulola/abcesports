@@ -161,6 +161,7 @@ fieldset{
 }
 
 input{
+    color: white;
     font-family: 'Gemunu Libre', sans-serif;
     font-size: 25.4pt;
     background-color: black;
@@ -169,14 +170,18 @@ input{
     border-width: 2.5px;
     border-radius: 15px;
     margin-bottom: 35px;
-    max-width: 1017px;
-    height: 75px;
+    max-width: 900px;
+    height: 60px;
     width: 100%;
     padding-left: 18px; 
     
 }
 
 input::placeholder{
+    color: rgba(255, 255, 255, 0.363);
+}
+
+input::after{
     color: white;
 }
 
@@ -194,7 +199,7 @@ input::placeholder{
 
 select{
     font-family: 'Gemunu Libre', sans-serif;
-    font-size: 25.4pt;
+    font-size: 24pt;
     color: white;
     background-color: black;
     border-color: white;
@@ -202,10 +207,14 @@ select{
     border-width: 2.5px;
     border-radius: 6px;
     border-radius: 15px;
-    height: 75px;
+    height: 60px;
     margin-bottom: 35px;
     padding-left: 18px; 
 
+}
+
+select::placeholder{
+    color: rgba(255, 255, 255, 0.363);
 }
 
 .botaoform{
@@ -218,18 +227,22 @@ select{
     height: 75px;
     font-family: 'Gemunu Libre', sans-serif;
     border-radius: 10px;
+    padding: 0;
+    transform: translateY(-2.5px);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .linha1{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 195px;
 }
 
 .linha2{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 292.5px;
 }
 
 .rodape{
@@ -380,4 +393,22 @@ button:hover{
     transform: translateY(-2.5px);
     transition: 0.5s;
     cursor: pointer;
+}
+
+.formulario{
+    max-width: 1213.65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudomeio{
+    max-width: 1213.65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    margin-right: 100px;
 }
