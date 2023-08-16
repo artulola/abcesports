@@ -1,3 +1,13 @@
+const botao = document.querySelector('#botao')
+
+botao.addEventListener('click', () =>{
+    window.scroll({
+        top: 1800,
+        behavior: "smooth"
+    })
+    
+})
+
 let count = 1;
 document.getElementById("radio1").checked = true;
 
@@ -16,3 +26,4 @@ function proxImg(){
     document.getElementById("radio"+count).checked = true;
 
 }
+

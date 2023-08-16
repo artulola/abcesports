@@ -104,7 +104,8 @@ p{
 }
 
 .terceirasecao{
-    margin-bottom: 100px;
+    margin-bottom: 70px;
+
 }
 
 .terceirasecao h1{
@@ -373,4 +374,10 @@ footer{
 
 #radio6:checked ~ .autonavegacao .autobutton6{
     background-color: #FFC90D;
+}
+
+button:hover{
+    transform: translateY(-2.5px);
+    transition: 0.5s;
+    cursor: pointer;
 }
