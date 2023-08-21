@@ -42,7 +42,7 @@ header{
     background-color: #FFC90D;
     text-decoration: none;
     font-size: 16px;
-    color: black;
+    color: #010409;
     border: none;
     width: 150px;
     height: 48.39px;
@@ -76,7 +76,7 @@ a{
     background-color: #FFC90D;
     text-decoration: none;
     font-size: 16px;
-    color: black;
+    color: #010409;
     font-family: 'Gemunu Libre', sans-serif;
     border-radius: 10px;
     width: 160px;
@@ -86,16 +86,16 @@ a{
 
 .conteudoimg{
     max-width: 550px;
-    background-color: black;
+    background-color: #010409;
 }
 
 .conteudoimg h1{
     font-weight: 400;
-    font-size: 64.55pt;
+    font-size: 5.4em;
 }
 
 p{
-    font-size: 25.4pt;
+    font-size: 2.12em;
 }
 
 
@@ -110,7 +110,7 @@ p{
 
 .terceirasecao h1{
     font-weight: 400;
-    font-size: 79.56pt;
+    font-size: 6.65em;
     padding-top: 31.5px;
     margin: 0;
 
@@ -141,7 +141,7 @@ p{
 
 .quartasecao h1{
     font-weight: 400;
-    font-size: 66.88pt;
+    font-size: 5.6em;
 }
 
 .tituloform{
@@ -164,7 +164,7 @@ input{
     color: white;
     font-family: 'Gemunu Libre', sans-serif;
     font-size: 25.4pt;
-    background-color: black;
+    background-color: #010409;
     border-color: white;
     border-style: solid;
     border-width: 2.5px;
@@ -199,9 +199,9 @@ input::after{
 
 select{
     font-family: 'Gemunu Libre', sans-serif;
-    font-size: 24pt;
+    font-size: 2em;
     color: white;
-    background-color: black;
+    background-color: #010409;
     border-color: white;
     border-style: solid;
     border-width: 2.5px;
@@ -220,7 +220,7 @@ select::placeholder{
 .botaoform{
     background-color: #FFC90D;
     text-decoration: none;
-    font-size: 16pt;
+    font-size: 1.33em;
     color: black;
     border: none;
     width: 210px;
@@ -236,7 +236,7 @@ select::placeholder{
 .linha1{
     display: flex;
     align-items: center;
-    gap: 195px;
+    gap: 190px;
 }
 
 .linha2{
@@ -411,4 +411,8 @@ button:hover{
 
 .texto{
     margin-right: 100px;
+}
+
+.tituloebotao{
+    padding-right: 20px;
 }
