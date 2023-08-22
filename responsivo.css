@@ -1,0 +1,196 @@
+@media (max-width: 957px){
+ 
+}
+
+@media (max-width: 913px){
+    .segundasecao p {
+        text-align: justify;
+    }
+
+    
+
+    /* #senha {
+        width: 80%;
+    } */
+
+}
+
+@media (max-width: 820px){
+    .primeirasecao {
+        background-image: none;
+        text-align: justify;
+    }
+
+    .conteudoimg     {
+        margin: auto;
+    }
+}
+
+@media (max-width: 685px){
+
+    .quartasecao h1 {
+        font-size: 4em;
+    }
+
+    .terceirasecao h1 {
+        font-size: 4.5em;
+    }
+
+    input {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .linha1 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .linha2{
+        display: flex;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+
+    select {
+        width: 100%;
+    }
+    
+
+}
+
+@media (max-width: 630px){
+    .quartasecao h1 {
+        font-size: 3.5em;
+    }
+
+}
+
+@media (max-width: 520px){
+    .conteudoimg h1 {
+        font-size: 3em;
+        margin-bottom: 1em;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .botaoheader {
+        width: 206px;
+    }
+
+    .tituloebotao {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .botaoinscrever {
+        width: 206px;
+        margin: auto;
+        
+    }
+
+}
+
+@media (max-width: 495px){
+    .quartasecao h1 {
+        font-size: 3em;
+    }
+
+    .terceirasecao h1 {
+        font-size: 3.5em;
+    }
+
+    input {
+        font-size: 1.5em;
+    }
+
+}
+
+@media (max-width: 428px){
+    .quartasecao h1 {
+        font-size: 2.5em;
+    }
+
+    .terceirasecao h1 {
+        font-size: 2.5em;
+    }
+
+    .segundasecao p {
+        font-size: 1.7em;
+    }
+
+    .estrelas {
+        display: none;
+    }
+}
+
+@media (max-width: 390px){
+
+    main {
+        padding: 0;
+    }
+
+    input {
+        font-size: 0.8em;
+        padding: 1em 1em;
+        height: 0;
+        margin-bottom: 2em;
+    }
+
+    .linha1 {
+        gap: 1em;
+    }
+
+    select {
+        font-size: 1em;
+        height: 2em;
+        margin-bottom: 0;
+    }
+
+    .botaoform {
+        height: 2em;
+        font-size: 1em;
+    }
+
+    .quartasecao h1 {
+        font-size: 1.5em;
+    }
+
+    .slider {
+        width: 250px;
+        height: 340px;
+    }
+
+    .slide img {
+        width: 250px;
+    }
+
+    .texto {
+        max-width: 326px;
+    }
+
+    .navegacaomanual {
+        position: absolute;
+        width: 250px;
+        margin-top: 360px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .autonavegacao {
+        position: absolute;
+        width: 250px;
+        margin-top: 360px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
