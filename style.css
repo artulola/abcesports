@@ -2,7 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style: none;
+}
 
+a {
+    color: white;
 }
 
 body{
@@ -15,8 +19,6 @@ body{
     color: white
 }
 
-
-
 main{
     padding-top: 50px;
     max-width: 1213.65px;
@@ -25,18 +27,15 @@ main{
 }
 
 header{
-    margin-left: 7px;
-    margin-right: 7px;
-    margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
     align-items: center;
     color: white;
     justify-content: space-between;
+    max-width: 1150px;
+    margin: 0 auto 1em;
 }
-
-
 
 .escudo{
     max-width: 96.53px;
@@ -113,14 +112,12 @@ p{
     font-size: 2.12em;
 }
 
-
 .estrelas{
     max-width: 141.25px;
 }
 
 .terceirasecao{
     margin-bottom: 70px;
-
 }
 
 .terceirasecao h1{
@@ -128,7 +125,6 @@ p{
     font-size: 6.65em;
     padding-top: 31.5px;
     margin: 0;
-
 }
 
 .segundasecao p{
@@ -164,7 +160,7 @@ p{
     align-items: center;
     gap: 1em;
     justify-content: center;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .tituloform img{
@@ -187,7 +183,7 @@ fieldset > div {
 input{
     color: white;
     font-family: 'Gemunu Libre', sans-serif;
-    font-size: 25.4pt;
+    font-size: 1.5em;
     background-color: #010409;
     border-color: white;
     border-style: solid;
@@ -197,8 +193,7 @@ input{
     max-width: 900px;
     height: 60px;
     width: 100%;
-    padding-left: 18px; 
-    
+    padding-left: 18px;  
 }
 
 input::placeholder{
@@ -234,7 +229,6 @@ select{
     height: 60px;
     margin-bottom: 35px;
     padding-left: 18px; 
-
 }
 
 select::placeholder{
@@ -281,7 +275,6 @@ select::placeholder{
     height: 500px;
     overflow: hidden;
 }
-
 
 .slides{
     width: 600%;
@@ -357,7 +350,6 @@ select::placeholder{
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
-
 }
 
 .autonavegacao{
@@ -366,7 +358,6 @@ select::placeholder{
     margin-top: 480px;
     display: flex;
     justify-content: center;
-
 }
 
 .autonavegacao div:not(:last-child){
@@ -409,7 +400,6 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1em;
 }
 
 .conteudomeio{
@@ -425,20 +415,23 @@ button:hover{
     padding-right: 20px;
 }
 
-.abcpb{
-    width: 90px;
-    position: relative;
+.abc{
+    width: 90px
 }
 
-.elefantemaisquerido{
-    width: 150px;
-    position: absolute;
+.elefante{
+    width: 200px;
 }
 
-footer{
+.footer {
     display: flex;
-    position: relative;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1400px;
+    margin: auto;
+    background-color: var(--azul2);
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    padding: 1em 2em;
 }
-
