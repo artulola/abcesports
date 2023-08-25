@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/abcpb.png" type="image/x-icon">
     <title>Campeonato do Mais Querido</title>
 </head>
 <body>
 
     <header>
         <div class="logojunto">
+            <a href="https://abcfc.com.br" target="_blank">
                 <img src="assets/img/logo-abcfc.fa2e7c2a.svg" alt="logo-abcfc" class="escudo">
                 <p>eSports</p>
+            </a>
         </div>
         <a href="https://abcfc.com.br" target="_blank" ><button name="Site oficial" class="botaoheader">Site Oficial</button></a>
     </header>
@@ -22,7 +26,6 @@
     <main>
 
         <section class="primeirasecao">
-
             <div class="conteudoimg">
                 <div class="tituloebotao">
                     <img src="assets/img/estrelinhas.png" alt="4 estrelinhas" class="estrelas">
@@ -76,7 +79,6 @@
                             <div class="autobutton5"></div>
                             <div class="autobutton6"></div>
                         </div>
-                
                     <div class="navegacaomanual">
                         <label for="radio1" class="manual-btn"></label>
                         <label for="radio2" class="manual-btn"></label>
@@ -85,17 +87,11 @@
                         <label for="radio5" class="manual-btn"></label>
                         <label for="radio6" class="manual-btn"></label>
                     </div>
-                
                     </div>
                 </div>
             </div>
-
-
-
-
         </section>
 
-        
         <section class="terceirasecao">
         <hr>
             <div class="divdata"> 
@@ -105,7 +101,6 @@
         <hr>
         </section>
        
-
         <section class="quartasecao">
             <div class="tituloform">
                 <h1><span class="destaque">FORMULÁRIO</span> DE INSCRIÇÃO</h1>
@@ -118,7 +113,7 @@
                                 <input type="text" name="nome" id="nome" placeholder="Nome Completo">
                             </div>
                             <div class="email">
-                                <input type="text" name="email" id="email" placeholder="e-Mail">
+                                <input type="text" name="email" id="email" placeholder="E-Mail">
                             </div>
                             <div class="login">
                                 <input type="text" name="login" id="login" placeholder="Login">
@@ -127,6 +122,9 @@
                                 <div class="senha">
                                     <input type="password" name="senha" id="senha" placeholder="Senha">
                                 </div>
+                                <input type="password" name="confirmarsenha" id="confirmarsenha" placeholder="Confirme a senha">
+                            </div>
+                            <div class="linha2">
                                 <div class="jogos">
                                     <select name="jogos" id="jogos">
                                         <option value="" disabled selected>Qual jogo irá competir?</option>
@@ -138,27 +136,25 @@
                                         <option value="dota2">Dota 2</option>
                                     </select>
                                 </div>
-                            </div>
-                    
-                            <div class="linha2">
-                                <div class="confirmarsenha">
-                                    <input type="password" name="confirmarsenha" id="confirmarsenha" placeholder="Confirme a senha">
-                                </div>
                                 <input type="submit" class="botaoform">
                             </div>
+                    
                         </fieldset>
                     </form>
                 </div>
         </section>
     </main>
 
-    <footer>
-        <div class="rodape">
-            <a href="https://abcfc.com.br" target="_blank"><img src="assets/img/abcpb.png" alt="logo ABC em preto e branco" class="abcpb"></a>
-            <a href="https://www.natalshopping.com.br/lojas/elefante-mq" target="_blank"><img src="assets/img/elefante.png" alt="logo elefante o mais querido" class="elefantemaisquerido"></a>
-        </div>
-    </footer>
+    <footer class="footer">
+        <a href="https://abcfc.com.br" target="_blank">
+            <img class="abc" src="assets/img/abcpb.png" alt="logo ABC em preto e branco">
+        </a>
+        <a href="https://www.natalshopping.com.br/lojas/elefante-mq" target="_blank">
+            <img class="elefante" src="assets/img/elefante.png" alt="logo elefante o mais querido">
+        </a>
+     </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>

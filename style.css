@@ -1,6 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a {
+    color: white;
+}
+
 body{
     margin: 0;
-    padding: 0;
+    padding: 2em;
     width: 100%;
     height: 100vh;
     font-family: 'Gemunu Libre', sans-serif;
@@ -8,27 +19,23 @@ body{
     color: white
 }
 
-
-
 main{
     padding-top: 50px;
     max-width: 1213.65px;
     margin: auto;
+    padding: 1em;
 }
 
 header{
-    margin-left: 7px;
-    margin-right: 7px;
-    margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
     align-items: center;
     color: white;
     justify-content: space-between;
+    max-width: 1150px;
+    margin: 0 auto 1em;
 }
-
-
 
 .escudo{
     max-width: 96.53px;
@@ -50,8 +57,11 @@ header{
     border-radius: 10px;
 }
 
+.botaoheader {
+    background-color: #fffb09fb;
+}
+
 a{
-    height: 46px;
     text-decoration: none;
 }
 
@@ -84,6 +94,10 @@ a{
     border: none;
 }
 
+.botaoinscrever {
+    background-color: #fffb09fb;
+}
+
 .conteudoimg{
     max-width: 550px;
     background-color: #010409;
@@ -98,14 +112,12 @@ p{
     font-size: 2.12em;
 }
 
-
 .estrelas{
     max-width: 141.25px;
 }
 
 .terceirasecao{
     margin-bottom: 70px;
-
 }
 
 .terceirasecao h1{
@@ -113,7 +125,6 @@ p{
     font-size: 6.65em;
     padding-top: 31.5px;
     margin: 0;
-
 }
 
 .segundasecao p{
@@ -141,12 +152,15 @@ p{
 
 .quartasecao h1{
     font-weight: 400;
-    font-size: 5.6em;
+    font-size: 5.2em;
 }
 
 .tituloform{
     display: flex;
     align-items: center;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 2em;
 }
 
 .tituloform img{
@@ -160,10 +174,16 @@ fieldset{
     padding: 0 0 0 0;
 }
 
+fieldset > div {
+    display: flex;
+    padding: 0 1em 0 1em;
+    flex-shrink: 0;
+}
+
 input{
     color: white;
     font-family: 'Gemunu Libre', sans-serif;
-    font-size: 25.4pt;
+    font-size: 1.5em;
     background-color: #010409;
     border-color: white;
     border-style: solid;
@@ -173,8 +193,7 @@ input{
     max-width: 900px;
     height: 60px;
     width: 100%;
-    padding-left: 18px; 
-    
+    padding-left: 18px;  
 }
 
 input::placeholder{
@@ -210,7 +229,6 @@ select{
     height: 60px;
     margin-bottom: 35px;
     padding-left: 18px; 
-
 }
 
 select::placeholder{
@@ -233,38 +251,22 @@ select::placeholder{
     cursor: pointer;
 }
 
+.botaoform:hover {
+    background-color: #fffb09fb;
+}
+
 .linha1{
     display: flex;
     align-items: center;
-    gap: 190px;
+    justify-content: space-between;
+    gap: 2em;
 }
 
 .linha2{
     display: flex;
     align-items: center;
-    gap: 292.5px;
-}
-
-.rodape{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    max-height: 200px;
-    height: 100%;
-}
-
-.abcpb{
-    max-width: 96.5px;
-    margin-right: 8.5px;
-}
-
-.elefantemaisquerido{
-    max-width: 174px;
-}
-
-footer{
-    height: 200px;
+    justify-content: space-between;
+    gap: 2em;
 }
 
 .slider{
@@ -273,7 +275,6 @@ footer{
     height: 500px;
     overflow: hidden;
 }
-
 
 .slides{
     width: 600%;
@@ -349,7 +350,6 @@ footer{
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
-
 }
 
 .autonavegacao{
@@ -358,7 +358,6 @@ footer{
     margin-top: 480px;
     display: flex;
     justify-content: center;
-
 }
 
 .autonavegacao div:not(:last-child){
@@ -396,23 +395,43 @@ button:hover{
 }
 
 .formulario{
-    max-width: 1213.65px;
+    max-width: 1300px;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .conteudomeio{
-    max-width: 1213.65px;
+    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.texto{
-    margin-right: 100px;
+    flex-wrap: wrap;
+    gap: 2em;
 }
 
 .tituloebotao{
     padding-right: 20px;
+}
+
+.abc{
+    width: 90px
+}
+
+.elefante{
+    width: 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1400px;
+    margin: auto;
+    background-color: var(--azul2);
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    padding: 1em 2em;
 }
