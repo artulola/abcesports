@@ -2,7 +2,7 @@ const botao = document.querySelector('#botao')
 
 botao.addEventListener('click', () =>{
     window.scroll({
-        top: 2000,
+        top: 1800,
         behavior: "smooth"
     })
     
